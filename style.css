@@ -22,29 +22,33 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px #3839399d;
-
 }
 
 div{
-    text-align: center;
     padding: 8px;
     font-size: 20px;
 }
- div p.container{
+
+ div.container{
     display: flex;
     align-items:start;
     justify-content:center;
     flex-direction: column;
  }
+
  input{
     margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
+
  input.input-btn{
     padding: 8px 20px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-
+    background-color: rgb(122, 221, 221);
 
  }
 
